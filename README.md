@@ -8,10 +8,16 @@
 
 ## Requirements
 - GPU (For faster computation) or
-- Google Colaboratory
+- [Google Colaboratory](https://colab.research.google.com/drive/1yG2Zk66IdIoknFmsmsaENKCSfuhHxO-a)
 - Tensorflow
 - NumPy
 
 #### Bottlenecks files are created for each image and these values are used for training purpose
-#### During the training these bottleneck values are taken at random from training set and fed to the pre-trained model
+#### During the training these bottleneck values are taken at random from training set and fed to the pre-trained model in batches of size 100
+#### The bottleneck files are covouluted with the weights in the last layer of pre-trained model and weights are updated
+
+#### The model gives an test accuracy of 84% and a training accuracy of 87%
+![Training Accuracy Image](https://github.com/Naveen-Kolagani/Devanagari-Handwritten-Character-Recognition/blob/master/Accuracy.png)
+![Predictions from the above model](https://github.com/Naveen-Kolagani/Devanagari-Handwritten-Character-Recognition/blob/master/Predictions.png)
+#### This model lets you add distortions to the images for better training.
 
