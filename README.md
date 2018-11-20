@@ -20,4 +20,4 @@
 ![Training Accuracy Image](https://github.com/Naveen-Kolagani/Devanagari-Handwritten-Character-Recognition/blob/master/Accuracy.png)
 ![Predictions from the above model](https://github.com/Naveen-Kolagani/Devanagari-Handwritten-Character-Recognition/blob/master/Predictions.png)
 #### This model lets you add distortions to the images for better training.
-
+#### For better visualization the jupyter notebook summarizes the logs and they can be visualized with Tensorboard
